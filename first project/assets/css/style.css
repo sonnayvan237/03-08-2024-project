@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@100;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', 'sans-serif';
+}
+body{
+    display: block;
+}
+/*debut barre de navigation*/
+header{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 2px 10%;
+    z-index: 100; 
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu_icon{
+    width: 70px;
+    cursor: pointer;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    padding-left: 120%;
+}
+.menu ul a{ 
+    margin-left: 18px;
+    font-size: 13px;
+    color:white;
+    text-decoration: 0;
+    position: relative;
+    font-size: 110%;  
+}
+/*fin barre de navigation*/
+
+/*debut section1*/
+.background_image{
+    height: 750px;
+    width: 100%;
+    position: relative;
+}
+.background_image img{
+    position: absolute;
+}
+
+.texte{
+    color:white;  
+    font-size: 50px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 180px;
+    font-weight: bold;
+}
+.libellé{
+    position: absolute;
+    margin-left: 180px;
+    margin-top: -300px;
+    color: white;
+    font-size: 22px;
+}
+.page1{
+    position: absolute;
+    font-size: 25px;
+    margin-left: 190px;
+    margin-top: -200px;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid rgb(128, 68, 184);
+    background-color: rgb(116, 62, 167);
+    padding: 7px;
+    text-decoration: none;
+    box-shadow: 100px;  
+}
+/*fin section1*/
+
+/*debut section2*/
+.loreem h2{
+    text-align: center;
+    padding-top: 40px;
+}
+.loreem p{
+    padding-top: 20px;
+    justify-content: center;
+    text-align:center;
+    display: flex;
+}
+/*fin section2*/
+
+
+/*debut section3*/
+.groupe_image{
+    display: flex;
+    justify-content: space-around; 
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-bottom: 2%;
+}
+.image{
+    text-align: center;
+    flex-direction: column;
+    margin-top: 5%; 
+    border: 2px solid rgb(216, 211, 211);
+    border-top-color: white;
+    border-bottom-color: white;
+}
+.groupe_image img{
+    width: 200px;
+    margin-bottom: 20px;
+}
+.groupe_image p{
+   text-align: center;
+   margin-top: 10%;
+}
+/*fin section3*/
+
+/*debut section4*/
+.pc{
+    background-color: rgb(238, 238, 224);
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.bureau ul ::marker{
+    display: flex;
+    list-style-type: disc;
+    color:blue;
+}
+.bureau li,p,h1{
+    padding: 3%; 
+}
+.bureau {
+    position: absolute;
+    margin-top:-25% ;
+    margin-left: 55%;
+    font-size: 18px;
+}
+.pc img{
+    margin: 20px;
+}
+.page2{
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid rgb(128, 68, 184);
+    background-color: rgb(116, 62, 167);
+    text-decoration: none;
+    box-shadow: 100px;  
+    padding: 7px;
+}
+/*fin section4*/
+
+/*debut section5*/
+.pc1{
+    background-color: rgb(238, 238, 224);
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.bureau1 ul ::marker{
+    display: flex;
+    list-style-type: disc;
+    color:blue;
+}
+.bureau1 li,p, h1{
+    padding: 3%; 
+}
+.bureau1 {
+    position: absolute;
+    margin-left: 15%;
+    font-size: 18px;
+    margin-top: 5%;
+}
+.pc1 img{
+    margin-left: 57%;
+    margin-top: 5%;
+}
+/*fin section5*/
+
+/*debut section6*/
+.bas_de_page{
+    text-align: center;
+    margin-top: 3%;
+}
+.etoile{
+    margin-top: 15px; 
+    color: rgb(136, 78, 190); 
+    font-size: 30px;
+} 
+/*fin section6*/
+/*debut section7*/
+footer {
+    background-color:beige;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    padding: 2px 10%;
+    z-index: 100;
+}
+
+.pied_de_page a{
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 34px;
+    position: absolute;
+    color: rgb(180, 18, 180);
+    text-decoration: 0;
+}
+.container P{
+    text-align:center;
+    margin-left: 40%;
+}
+
+.pied_de_page img{
+    width: 60px;
+    height: 30px;
+}
+.facebook img{
+    margin-left: 32%;
+    margin-top: 2%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+}
+.twitter img{
+    margin-left: 36%;
+    margin-top: 2%;
+    width: 30px;
+    height: 30px;
+    position: absolute;  
+}
+.figma img{
+    margin-left: 28%;
+    margin-top: 2%;
+    width: 30px;
+    height: 30px;
+    position: absolute;   
+}
+
