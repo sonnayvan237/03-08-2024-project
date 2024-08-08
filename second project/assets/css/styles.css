@@ -40,7 +40,7 @@ padding-bottom: 12px;
     color: white;
 }
 .texte{
-    margin-left: 25%;
+    margin-left: 40%;
     padding-top: 12%;
     padding-bottom: 12%;
     font-size:20px ;
@@ -70,7 +70,7 @@ padding-bottom: 12px;
 .libelle{
     position: absolute;
     padding-top: 8%;
-    margin-left: 12%;
+    margin-left: 15%;
 }
 .libelle p {
     padding-top: 20px;
@@ -83,6 +83,7 @@ padding-bottom: 12px;
     background-color: white;
     border-radius: 30%;
     padding: 2%;
+    font-weight: bold;
 }
 .second_cadre{
     background-color: white;
@@ -117,6 +118,140 @@ padding-bottom: 12px;
     padding-bottom: 20px;
 }
 .images img{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+.a-propos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 160px;
+    margin-right: 160px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.images{
+    text-align: center;
+    border: 1px  white;
+    background-color: white;
+    padding: 10px;
+}
+.quatrieme-cadre{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 80px;
+    margin-left: 10%;
+    padding-bottom: 80px;
+}
+.size1 img,.size2 img,.size3 img,.size4 img {
+width: 40%;
+height: 40%;
+}
+.size1 p,.size2 p,.size3 p,.size4 p {
+   color: white;
+   padding-left: 10px;
+   font-weight: bold;
+}
+.size1,.size2,.size3,.size4{
+    text-align: center;
+    padding-top: 10%;
+    filter: brightness(80%);
+    text-decoration: none;    
+}
+.size1:hover,.size2:hover,.size3:hover,.size4:hover{
+   opacity: 0.5 ;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px; 
+   
+}
+.size1{
+    background-image: url(./../images/patner\ fraud.jpg);
+    background-size: cover;
+}
+.size2{
+    background-image: url(./../images/carte-de-credit-fond.jpg);
+    background-size: cover;
+}
+.size3{
+    background-image: url(./../images/cheque.jpg);
+    background-size: cover;
+}
+.size4{
+    background-image: url(./../images/Homework\ Help.jpg);
+    background-size: cover;
+}
+.Contact-us2{
+    color: white;
+    text-decoration: none;
+    border: 1px solid rgb(233, 42, 42);
+    padding: 1%;
+    border-radius: 30%;
+    background-color: rgb(233, 42, 42);  
+}
+.liste-zone{
+    padding-left: 16%;
+}
+.liste-zone ul{
+    padding-top: 20px;
+    padding-left: 16px;
+    padding-bottom: 60px;
+}
+.liste-zone li{
+    padding: 6px;
+}
+.liste-zone h1{
+    letter-spacing: 4px;
+    padding-bottom: 7%;
+}
+.footer{
+    background-color: rgb(50, 59, 70);
+}
+.footer-section {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 4%;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+  .footer-img img{
+  position:relative;
+  width: 60px;
+  height: 60Px;
+  margin-left: 100px;
+  padding-bottom: 12px;
+  
+  }
+  .reseau{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+  }
+  .reseau img{
     width: 30px;
     height: 30px;
-}
+    padding: 5px;
+  }
+  .contact h2,.phone h2, .follow-us h2 {
+    padding-bottom: 18% ;
+  }
+  .contact p,.phone p, .follow-us p {
+    padding-bottom: 6% ;
+  }
+  .copyright{
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(53, 46, 46, 0.527);
+    font-weight: bold;
+  }
+  .placeholder{
+    padding: 10px;
+    border-radius: 60% 60% 80% 80%;
+  }
+
