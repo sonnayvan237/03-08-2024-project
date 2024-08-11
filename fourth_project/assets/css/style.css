@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@100;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', 'sans-serif';
+}
+.navbar {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ margin-left: 80px;
+ margin-right: 80px;
+ padding-top: 20px;
+
+}
+.navbar img{
+    width: 60px;
+    height: 60px;
+    margin-left: 50px;
+   
+}
+.page{
+    padding-top: 10px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    padding-right: 30px;
+    font-weight: bold;
+}
+.page a:hover{
+    color: blue;
+}
+.devis p{
+    border: 2px ;
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+}
+.background-image{
+    background-image: url(./../images/istockphoto-503457156-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.service img{
+    width: 80px;
+    height: 80px; 
+    margin-bottom: 15px;
+}
+.service{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 8%;
+}
+.background-image p{
+    font-size: 450%;
+    color: white;
+}
+.background-image h1{
+    font-weight: bold;
+    font-size:600% ;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.premierbloc{
+    margin-left: 50px;
+    padding-top: 15%;
+}
+.premierbloc h6{
+    background-color: white;
+    width: 50%;
+    margin-bottom: 60px;
+    color: white;
+}
+.service p{
+    font-size: 20px;
+}
+.nettoyage, .plomberie{
+    margin-left: 100px;
+}
+.deuxiemebloc{
+    background-color:rgb(221, 226, 230);
+    text-align: center;
+    justify-content: center;
+    padding:120px;
+}
+.deuxiemebloc h2{
+    padding-bottom: 20px;
+    font-size: 150%;
+    color: rgb(153, 149, 149);
+}
+.deuxiemebloc h1{
+    padding-bottom: 30px;
+    font-size: 70px;
+}
+.deuxiemebloc p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 150%;
+    padding-bottom: 60px;
+}
+.deuxiemebloc a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border:2px;
+    padding: 20px;
+    border-radius: 5%;
+    background-color: rgb(250, 35, 35);
+}
+.premiere_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.deuxieme_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.troisiemebloc img{
+    width: 550px;
+    height:400px;
+}
+.premiere_section h1{
+    font-size: 260%;
+    padding-bottom: 20px;
+}
+.premiere_section p{
+    font-size: 220%;
+    padding-bottom: 20px;
+    font-weight: bold;
+    color: rgb(247, 13, 13);
+}
+.premiere_section h1, .premiere_section p{
+    margin-right: 110px;
+}
+.deuxieme_section img{
+    margin-top: -100px;
+}
+.deuxieme_section p{
+    padding-top: 90px;
+    margin-left: 80px;
+    font-size: 120%;
+    justify-content: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.troisiemebloc{
+    padding-bottom: 60px;
+}
+.quatriemebloc{
+    display: flex;
+    flex-direction: row;
+    background-image: url(./../images/Technicien\ de\ bureau\ détudes.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+    padding-bottom: 10%;
+}
+.quatriemebloc div{
+    padding-top: 20%;
+    margin-left: 50%;
+}
+.quatriemebloc h1{
+    color: rgb(233, 20, 20);
+    font-size: 350%;
+    padding-bottom: 30px;
+}
+.quatriemebloc h6{
+    color: rgb(233, 20, 20);
+    background-color:rgb(233, 20, 20) ;
+    margin-bottom: 30px;
+}
+.quatriemebloc p{
+    font-size: 160%;
+    padding-bottom: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.quatriemebloc a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border:2px;
+    padding: 20px;
+    border-radius: 5%;
+    background-color: rgb(250, 35, 35);
+}
+.option img{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+.option p{
+    padding-top: 20px;
+    font-style: italic;
+    font-size: 120%;
+}
+.option{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 10%;
+}
+.option-section h1{
+    font-size: 300%;
+    padding-top: 80px;
+    padding-left: 10%;
+}
+.cinquimebloc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(28, 28, 212);
+    color: white;
+    padding-bottom: 80px;
+}
+
+.plombier img{
+    width: 250px;
+    height: 250px;
+    border-radius: 6px;
+}
+.plombier{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding-top: 80px;  
+}
+.a_propos p{
+    font-size: 1.6rem;
+    padding: 20px;
+}
+.a_propos h1{
+    font-size: 5rem;
+    padding: 20px;
+}
+.a_propos{
+    padding-top: 90px;
+}
+.consigne{
+    text-align: center;
+    padding-top: 60px;
+}
+.consigne p{
+    padding-top: 30px;
+    padding-bottom: 60px;
+    font-size: 20px;
+}
+.link{
+    text-align: center;
+}
+
+.link a:first-child{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border:2px;
+    padding: 20px;
+    border-radius: 5%;
+    background-color: rgb(250, 35, 35);
+    margin-right: 30px;
+}
+.link a:last-child{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border:2px solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right:50px ;
+    border-radius: 5%;
+}
+.sixiemebloc{
+    padding-bottom: 90px;
+}
+.footer{
+    text-align: center;
+    font-size: 16px;
+    background-color: rgb(43, 41, 41);
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+} 
